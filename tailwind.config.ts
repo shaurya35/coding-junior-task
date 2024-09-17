@@ -9,8 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black:{
+          custom: "#151718",
+        },
+        white:{
+          custom: "#f5f5f5",
+          custom2: "#ffffff",
+        },
+        gray: {
+          custom: "#646465",
+        }
+      },
+      fontFamily: {
+        "fira-code": ['"Fira Code"', "monospace"],
       },
     },
   },
